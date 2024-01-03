@@ -1,84 +1,125 @@
-<!-- <html>
-    <head></head>
-    <body>
-        <form action="/action_page.php"method="get">
-            <label for="fname">First name:</label>
-            <input type="text" id="fname" name="fname"><br><br>
-            <label for="lname">Last name:</label>
-            <input type="text" id="lname" name="lname"><br><br>
-            <input type="submit" value="submit">
-        </form>
-    </body>
-</html> -->
-<!-- <html>
-    <head>
-        <h1>HTML FORM</h1>
-    </head>
-    <body>
-        <label>First Name:</label>
-        <input type="text" value="Arun Raghav"><br>
-        <label>Age:</label>
-        <input type="number" value="22"><br>
-        <label>E-Mail :</label>
-        <input type="text" value="abcd123@gmail.com"><br>
-        <button>submit</button>
-    </body>
-</html> -->
-<!-- <html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <style>
-        #contener1{
-            height:200px;
-            width:200px;
-            background-color: red
+        .container{
+            display: grid;
+            grid-template-columns: 15% 15% 15% 20% 10% 10% 5%;
+            grid-template-rows: 10% 20% 20% 15% 10% 10% 5%;
+            gap: 5px;
+            height: 100vh;
+            width: 100vh;
+
+
         }
-        body{
-            border:5px solid black;
-            margin:0;
-            padding:20px
+        .box1{
+            background-color: gray;
+            grid-column: span 2;
+
         }
-    </style>
-
-</head>
-
-<body>
-    <div id="contener1"></div>
-</body>
-
-</html> -->
-
-<html>
-
-<head>
-    <style>
-        #contener1{
-            height:200px;
-            width:200px;
-            background-color: red;
+        .box2{
+            background-color: aqua;
+            grid-column: span 2;
+            
         }
-        body{
-            border:5px solid black;
-        }
-        #contener2{
-            height:200px;
-            width:200px;
+        .box3{
             background-color: yellow;
-            margin-left:200px;
+            grid-column: span 2;
         }
-        #contener3{
-            height:200px;
-            width:200px;
+        .box4{
+            background-color: rgb(221, 123, 12);
+            grid-row: span 4;
+        }
+        .box5{
+            background-color: rgb(11, 139, 126);
+            
+        }
+        .box6{
+            background-color: rgb(241, 26, 126);
+            grid-column: span 3;
+            grid-row: span 2;
+        }
+        .box7{
+            background-color: rgb(199, 208, 17);
+            grid-column: span 2;
+        }
+        .box8{
+            background-color: rgb(29, 167, 218);
+            grid-row: span 2;
+        }
+        .box9{
+            background-color: rgb(61, 236, 22);
+        }
+        .box10{
+            background-color: rgb(73, 24, 171);
+        }
+        .box11{
+            background-color: rgb(2, 10, 10);
+            grid-row: span 2;
+            grid-column: span 2;
+        }
+        .box12{
+            background-color: blueviolet;
+        }
+        .box13{
+            background-color: yellow;
+            grid-column: span 2;
+        }
+        .box14{
+            background-color: rgb(209, 13, 13);
+            grid-row: span 3;
+        }
+        .box15{
             background-color: blue;
-            margin-left:400;
         }
-
+        .box16{
+            background-color: red;
+            grid-row: span 2;
+            grid-column: span 2;
+        }
+        .box17{
+            background-color: chartreuse;
+            grid-row: span 3;
+        }
+        .box18{
+            background-color: rgb(189, 231, 21);
+            grid-row: span 2;
+            grid-column: span 2;
+        }
+        .box19{
+            background-color: cornflowerblue;
+        }
+        .box20{
+            background-color: darkgreen;
+            grid-column: span 3;
+        }
     </style>
 </head>
-
 <body>
-    <div id="contener1"></div>
-    <div id="contener2"></div>
-    <div id="contener3"></div>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+        <div class="box6"></div>
+        <div class="box7"></div>
+        <div class="box8"></div>
+        <div class="box9"></div>
+        <div class="box10"></div>
+        <div class="box11"></div>
+        <div class="box12"></div>
+        <div class="box13"></div>
+        <div class="box14"></div>
+        <div class="box15"></div>
+        <div class="box16"></div>
+        <div class="box17"></div>
+        <div class="box18"></div>
+        <div class="box19"></div>
+        <div class="box20"></div>
+    </div>
 </body>
 </html>
