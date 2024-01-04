@@ -3,123 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,600&family=Kalnia:wght@300;400&display=swap" rel="stylesheet">
+<head>
     <style>
-        .container{
-            display: grid;
-            grid-template-columns: 15% 15% 15% 20% 10% 10% 5%;
-            grid-template-rows: 10% 20% 20% 15% 10% 10% 5%;
-            gap: 5px;
-            height: 100vh;
-            width: 100vh;
+       .container1{
+        height:800px;
+        background-color:#C3EDC0;
+        position:relative
+       }
+       .cloud1{
+        position:absolute;
+        top:40%;
+        right:16%;
+       }
+       .mountain{
+        position:absolute;
+        bottom: 0;
+        left:400px;
+       }
+       .cloud2{
+        position:absolute;
+        top:53%;
+        left:23%;
+       }
+       .img{
+        position:absolute;
+        top:40%;
+        left:42%;
+        font-family: 'Kalnia', serif;
 
+       }
+       p{
+        position:absolute;
+        left:37%;
+        font-family: 'Kalnia', serif;
+        color:#42855b
+       }
 
-        }
-        .box1{
-            background-color: gray;
-            grid-column: span 2;
-
-        }
-        .box2{
-            background-color: aqua;
-            grid-column: span 2;
-            
-        }
-        .box3{
-            background-color: yellow;
-            grid-column: span 2;
-        }
-        .box4{
-            background-color: rgb(221, 123, 12);
-            grid-row: span 4;
-        }
-        .box5{
-            background-color: rgb(11, 139, 126);
-            
-        }
-        .box6{
-            background-color: rgb(241, 26, 126);
-            grid-column: span 3;
-            grid-row: span 2;
-        }
-        .box7{
-            background-color: rgb(199, 208, 17);
-            grid-column: span 2;
-        }
-        .box8{
-            background-color: rgb(29, 167, 218);
-            grid-row: span 2;
-        }
-        .box9{
-            background-color: rgb(61, 236, 22);
-        }
-        .box10{
-            background-color: rgb(73, 24, 171);
-        }
-        .box11{
-            background-color: rgb(2, 10, 10);
-            grid-row: span 2;
-            grid-column: span 2;
-        }
-        .box12{
-            background-color: blueviolet;
-        }
-        .box13{
-            background-color: yellow;
-            grid-column: span 2;
-        }
-        .box14{
-            background-color: rgb(209, 13, 13);
-            grid-row: span 3;
-        }
-        .box15{
-            background-color: blue;
-        }
-        .box16{
-            background-color: red;
-            grid-row: span 2;
-            grid-column: span 2;
-        }
-        .box17{
-            background-color: chartreuse;
-            grid-row: span 3;
-        }
-        .box18{
-            background-color: rgb(189, 231, 21);
-            grid-row: span 2;
-            grid-column: span 2;
-        }
-        .box19{
-            background-color: cornflowerblue;
-        }
-        .box20{
-            background-color: darkgreen;
-            grid-column: span 3;
-        }
     </style>
+
 </head>
+
 <body>
-    <div class="container">
-        <div class="box1"></div>
-        <div class="box2"></div>
-        <div class="box3"></div>
-        <div class="box4"></div>
-        <div class="box5"></div>
-        <div class="box6"></div>
-        <div class="box7"></div>
-        <div class="box8"></div>
-        <div class="box9"></div>
-        <div class="box10"></div>
-        <div class="box11"></div>
-        <div class="box12"></div>
-        <div class="box13"></div>
-        <div class="box14"></div>
-        <div class="box15"></div>
-        <div class="box16"></div>
-        <div class="box17"></div>
-        <div class="box18"></div>
-        <div class="box19"></div>
-        <div class="box20"></div>
+    <table class="navbar"><img src="./me.svg">
+        <tr>
+            <td><a>About</a></td>
+            <td><a>Work</a></td>
+            <td><a>Note</a></td>
+            
+        </tr>
+    </table>
+    <div class="container1">
+        <div class="mountain">
+            <img src="./template.123.svg">
+        </div>
+        <div class="cloud1">
+            <img src="./cloud.svg">
+        </div>
+        <div class="cloud2">
+            <img src="./cloud.svg">
+        </div>
+        <div class="img">
+            <img src="./im-sean.svg">
+            <p>a web designer.</p>
+        </div>    
     </div>
+    
 </body>
 </html>
